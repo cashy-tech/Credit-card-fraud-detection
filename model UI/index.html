@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CCFD | Model</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+  </head>
+  <body class="body">
+    <div class="divbody">
+      <h1 class="h1">Credit Card Fraud Detection Model Interface</h1>
+      <h5 class="para">
+        <p>
+          This model is for detecting legitimate and fraud credit card
+          transactions. It takes in the transaction details as input and gives
+          output. It should only be used by authorized personnel
+        </p>
+      </h5>
+      <h3 class="h3">Input</h3>
+      <form id="transaction-form">
+        <input
+          type="text"
+          placeholder="Input transaction features as CSVs from V1 to V28, amount and class"
+          class="inputtext"
+          id="transaction-input"
+        />
+        <br />
+        <button class="button" type="submit">Check transaction</button>
+      </form>
+      <h3 class="h3">Output</h3>
+      <textarea class="output" id="prediction-output"></textarea>
+      <footer class="footer">
+        <p>Created by Carolyne Ndunge. © 2023</p>
+      </footer>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
