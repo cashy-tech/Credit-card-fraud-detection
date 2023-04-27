@@ -24,7 +24,7 @@ python API.py
 This will start the Flask web server and the user interface can be accessed by navigating to http://localhost:5000 in a web browser.
 
 # Dataset
-The dataset used in this project is the Credit Card Fraud Detection dataset from Kaggle, which contains credit card transactions made over a two-day period in September 2013 by European cardholders.
+The dataset used in this project is the Credit Card Fraud Detection dataset from Kaggle, which contains credit card transactions made over a two-day period in September 2013 by European cardholders. Here's a link to the dataset https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
 `Dataset folder`
 
 # Model
